@@ -6,21 +6,9 @@ Production healthcare platform developed for Beijing Hospital for the Elderly.
 
 ---
 
-## Architecture
+## System Architecture
 
-```text
-Patient
-    │
-    ▼
-WeChat Mini Program
-    │
-    ▼
-Flask REST API
-    │
- ┌──┴─────────┐
- ▼            ▼
-Auth Layer   MySQL
-```
+![System Architecture](docs/system-architecture.png). 
 
 ---
 
@@ -74,24 +62,8 @@ Manages outpatient booking workflows.
 
 ## Authentication Flow
 
-```text
-User Login
-    │
-    ▼
-WeChat Authentication
-    │
-    ▼
-OpenID
-    │
-    ▼
-Backend Verification
-    │
-    ▼
-Session Creation
-    │
-    ▼
-Authorized Access
-```
+User Login -> WeChat Authentication -> OpenID ->   
+Backend Verification -> Session Creation -> Authorized Access
 
 ---
 
