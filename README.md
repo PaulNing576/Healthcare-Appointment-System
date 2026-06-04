@@ -8,7 +8,13 @@ Production healthcare platform developed for Beijing Hospital for the Elderly.
 
 ## System Architecture
 
-![System Architecture](docs/system-architecture.png). 
+<p align="center">
+  <img src="docs/system-architecture.png" alt="System Architecture" width="850">
+</p>
+
+<p align="center">
+  <i>Overall Architecture of the Platform.</i>
+</p>
 
 ---
 
@@ -67,25 +73,17 @@ Backend Verification -> Session Creation -> Authorized Access
 
 ---
 
-## Transaction-Safe Scheduling
-
-### Problem
+## Transaction-Safe Appointment Scheduling
 
 Concurrent booking requests may attempt to reserve the final available appointment slot.
 
-### Solution
+<p align="center">
+  <img src="docs/Concurrency-controlled-Appointment-Scheduling.png" alt="Transaction-Safe Appointment Scheduling" width="850">
+</p>
 
-Database transactions are used to guarantee scheduling consistency.
-
-```sql
-BEGIN;
-
-CHECK_CAPACITY();
-
-RESERVE_SLOT();
-
-COMMIT;
-```
+<p align="center">
+  <i>Concurrency-Controlled Scheduling.</i>
+</p>
 
 ### Result
 
