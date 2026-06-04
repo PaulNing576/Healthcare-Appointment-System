@@ -9,7 +9,7 @@ Production healthcare platform developed for Beijing Hospital for the Elderly.
 ## System Architecture
 
 <p align="center">
-  <img src="docs/system-architecture.png" alt="System Architecture" width="550">
+  <img src="docs/system-architecture.png" alt="System Architecture" width="450">
 </p>
 
 <p align="center">
