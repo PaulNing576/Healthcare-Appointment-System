@@ -9,11 +9,11 @@ Production healthcare platform developed for Beijing Hospital for the Elderly.
 ## System Architecture
 
 <p align="center">
-  <img src="docs/system-architecture.png" alt="System Architecture" width="850">
+  <img src="docs/system-architecture.png" alt="System Architecture" width="550">
 </p>
 
 <p align="center">
-  <i>Overall Architecture of the Platform.</i>
+  <i>Overall Architecture of the Platform</i>
 </p>
 
 ---
@@ -78,11 +78,11 @@ Backend Verification -> Session Creation -> Authorized Access
 Concurrent booking requests may attempt to reserve the final available appointment slot.
 
 <p align="center">
-  <img src="docs/Concurrency-controlled-Appointment-Scheduling.png" alt="Transaction-Safe Appointment Scheduling" width="850">
+  <img src="docs/Concurrency-controlled-Appointment-Scheduling.png" alt="Transaction-Safe Appointment Scheduling" width="550">
 </p>
 
 <p align="center">
-  <i>Concurrency-Controlled Scheduling.</i>
+  <i>Concurrency-Controlled Scheduling</i>
 </p>
 
 ### Result
